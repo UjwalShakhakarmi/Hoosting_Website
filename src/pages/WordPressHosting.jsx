@@ -362,7 +362,7 @@ const WordPressHosting = () => {
           </div>
         </div>
 
-        <div className="py-12 ">
+        {/* <div className="py-12 ">
           <div className="text-center border-y border-gray-700">
             <h1 className="font-bold lg:text-[20px]   text-info bg-accent py-2 px-5 lg:px-1">
               All our Low Cost WordPress Hosting Plans Come With
@@ -426,7 +426,7 @@ const WordPressHosting = () => {
               </ul>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className={`${styles.paddingX} ${styles.flexCenter}`}>
           <div className={`${styles.boxWidth} `}>

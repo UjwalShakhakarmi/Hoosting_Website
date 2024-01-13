@@ -23,8 +23,8 @@ const data = [
     img: <GrUpdate />,
   },
   {
-    head: "Free Domain for 1 Year",
-    desc: "As soon as your WordPress Hosting account is created, you may take advantage of a free domain of your choice for a year.",
+    head: "WhatsApp Support",
+    desc: "As soon as your WordPress Hosting account is created,  you can have advantage of  Whatsapp support easily.",
     img: <FaFreeCodeCamp />,
   },
 ];

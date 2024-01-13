@@ -184,7 +184,7 @@ const Affiliate = () => {
               </div>
               <div>
                 <h1 className="text-secondary text-[25px] pt-[50px] font-bold">
-                  Earn up to 60% commission!
+                  Earn up to 15% commission!
                 </h1>
                 <p className="text-secondary font-light pt-10">
                   Not only can you join our team and help spread the word about

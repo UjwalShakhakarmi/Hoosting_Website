@@ -309,7 +309,7 @@ const VPSHosting = () => {
           </div>
         </div>
 
-        <div className="py-12 relative">
+        {/* <div className="py-12 relative">
           <div className="text-center ">
             <h1 className="font-bold lg:text-[20px]   text-white bg-accent py-2 px-5 lg:px-1">
               All our Low Cost WordPress Hosting Plans Come With
@@ -371,7 +371,7 @@ const VPSHosting = () => {
               </ul>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className={`${styles.paddingX} ${styles.flexCenter} relative`}>
           <div className={`${styles.boxWidth} `}>
@@ -388,33 +388,33 @@ const VPSHosting = () => {
                   </h1>
                   <ul className="list-disc font-light text-[15px] text-secondary">
                     <li className="py-2">
-                      As a business just starting out, Our Fast and Best
-                      WordPress Hosting servers are ideal for getting off to a
-                      good start. They are quite simple to set up and upgrade
-                      when the need arises and are certainly secure to prevent
-                      breaches on your websites.
+                      Trusted and Reliable: Since our establishment, we have
+                      earned the trust of numerous clients by consistently
+                      delivering reliable hosting services. As a reputable web
+                      hosting provider with years of experience, we take pride
+                      in maintaining our clients’ confidence.
                     </li>
 
                     <li className="py-2">
-                      As a business just starting out, Our Fast and Best
-                      WordPress Hosting servers are ideal for getting off to a
-                      good start. They are quite simple to set up and upgrade
-                      when the need arises and are certainly secure to prevent
-                      breaches on your websites.
+                      Local Expertise, Global Reach: Being a Nepalese-based
+                      company, we understand the local market dynamics and the
+                      specific challenges faced by businesses in Nepal. Our
+                      hosting solutions are designed to meet the demands of the
+                      local audience while ensuring seamless connectivity on a
+                      global scale.
                     </li>
                     <li className="py-2">
-                      As a business just starting out, Our Fast and Best
-                      WordPress Hosting servers are ideal for getting off to a
-                      good start. They are quite simple to set up and upgrade
-                      when the need arises and are certainly secure to prevent
-                      breaches on your websites.
+                      Cutting-Edge Technology: We stay ahead of the curve by
+                      continuously upgrading our infrastructure and employing
+                      the latest technologies. This ensures that our customers
+                      benefit from powerful and fast hosting services that keep
+                      their websites running at peak performance.
                     </li>
                     <li className="py-2">
-                      As a business just starting out, Our Fast and Best
-                      WordPress Hosting servers are ideal for getting off to a
-                      good start. They are quite simple to set up and upgrade
-                      when the need arises and are certainly secure to prevent
-                      breaches on your websites.
+                      Comprehensive Hosting Solutions: Our hosting options cater
+                      to a diverse range of needs, whether you’re an individual
+                      with a personal blog, a growing startup, or an established
+                      enterprise.
                     </li>
                   </ul>
                 </div>
@@ -424,25 +424,22 @@ const VPSHosting = () => {
                   </h1>
                   <ul className="list-disc font-light text-[15px] text-secondary">
                     <li className="py-2">
-                      As a business just starting out, Our Fast and Best
-                      WordPress Hosting servers are ideal for getting off to a
-                      good start. They are quite simple to set up and upgrade
-                      when the need arises and are certainly secure to prevent
-                      breaches on your websites.
+                      Exceptional Customer Support: Exceptional customer support
+                      is at the core of our values. Our dedicated support team
+                      is available 24/7, ready to assist you with any technical
+                      queries or issues you may encounter along the way.
                     </li>
                     <li className="py-2">
-                      As a business just starting out, Our Fast and Best
-                      WordPress Hosting servers are ideal for getting off to a
-                      good start. They are quite simple to set up and upgrade
-                      when the need arises and are certainly secure to prevent
-                      breaches on your websites.
+                      Security and Reliability: Data security and uptime are of
+                      utmost importance to us. Our hosting environment is
+                      equipped with robust security measures and redundant
+                      systems to ensure maximum uptime and data protection.
                     </li>
                     <li className="py-2">
-                      As a business just starting out, Our Fast and Best
-                      WordPress Hosting servers are ideal for getting off to a
-                      good start. They are quite simple to set up and upgrade
-                      when the need arises and are certainly secure to prevent
-                      breaches on your websites.
+                      User-Friendly Control Panel: We provide a user-friendly
+                      control panel to effortlessly handle all aspects of your
+                      website hosting, ensuring a seamless management
+                      experience.
                     </li>
                     <li className="py-2">
                       As a business just starting out, Our Fast and Best

@@ -1,43 +1,59 @@
 import React from "react";
 import styles from "../style";
-import { Form } from "../component";
-
-import { arrowRight, map } from "../assets";
+import { Button, Button1, Button3, Form } from "../component";
+import { IoChatbubbleEllipsesOutline } from "react-icons/io5";
+import { WordPressImg, Explore4, hoostlyouter, hoostlyinner } from "../assets";
+import { Link } from "react-router-dom";
 
 const HeroSection = () => (
-  <section id="home" className={`flex md:flex-row flex-col  `}>
-    <div className={`flex-1 ${styles.flexStart} flex-col `}>
-      <div className="flex flex-row justify-between items-center w-full pt-[5rem] lg:pt-0">
-        <h1 className="flex-1 sm:text-[50px] text-[35px] font-bold text-primary-color leading-[50px] lg:leading-[65px] ">
+  <div className="grid lg:grid-cols-2 gap-9 relative">
+    <div>
+      <div className="mb-7">
+        <p className="text-[22px] text-info">Buy Hosting</p>
+      </div>
+      <div className="flex flex-row justify-between items-center w-full lg:pt-0">
+        <h1 className="flex sm:text-[50px] text-[35px] font-bold text-info leading-[50px] lg:leading-[65px] ">
           Make Your <br className="block " />
           Business Online
           <br className="sm:block hidden" />
         </h1>
       </div>
-      {/* <div className="flex flex-row justify-between items-center w-full py-[6px]">
-        <strong className="flex-1 ss:text-[72px] text-[20px] font-semibold">
-          Starting from ₹129 per month.
-        </strong>
-      </div>
-      <button className="border px-6 py-2 flex items-center justify-between w-[300px] background-primary-color text-white">
-        Get Started
-        <img src={arrowRight} />
-      </button>
-      <div className="flex flex-row justify-between items-center w-full py-[6px]">
-        <p className="text-[12px]">No Hidden Fees & 24/7 Support Service</p>
-      </div> */}
+
       <Form />
+
+      <div className="pt-9">
+        <p className="tracking-wide text-secondary text-[18px] flex">
+          Starting from <p className="mx-3">Rs.1499 per year</p>
+        </p>
+        <div className="py-4 flex lg:gap-14 gap-5">
+          <Button1>
+            <Link to="/wordPress-hosting">Host Your Site</Link>
+          </Button1>
+          <Button>
+            <a
+              className="flex items-center gap-2"
+              href="https://wa.me/+9779822799880"
+            >
+              <IoChatbubbleEllipsesOutline className="text-[20px]" />
+              Let's Chat
+            </a>
+          </Button>
+        </div>
+      </div>
     </div>
 
-    <div className="mt-12 mb-8">
+    <div className=" mb-8 w-full hidden lg:block">
       <img
-        src="https://hoostly.com/wp-content/uploads/2023/07/svgexport-1-2.svg"
-        className="w-[100%] h-[100%] relative z-[5]"
+        src={hoostlyouter}
+        alt=""
+        className="absolute  w-[480px] mx-auto right-[80px] top-[-37px] rotatespin "
+      />
+      <img
+        src={hoostlyinner}
+        className="relative top-5 w-[350px] mx-auto"
         alt=""
       />
-      <div className="absolute z-[0] w-[40%] h-[35%] top-0 "> </div>
     </div>
-  </section>
+  </div>
 );
-
 export default HeroSection;

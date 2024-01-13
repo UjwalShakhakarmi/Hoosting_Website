@@ -1,0 +1,14 @@
+<svg id="social-media-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40.069" height="40.906" viewBox="0 0 40.069 40.906">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.642" y1="0.211" x2="0.391" y2="0.724" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#db2433"/>
+      <stop offset="1" stop-color="#c81c24"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.642" y1="0.211" x2="0.391" y2="0.724" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b81f2c"/>
+      <stop offset="1" stop-color="#941c21"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_1991" data-name="Path 1991" d="M123.9,148.385c-3.38,12.911,4.08,16.189,7.406,12.763,0,0,2.32-1.964,6.1-12.4,3.5-9.656,11.12-7.568,13.512-3.145,1.944,3.6-.169,14.963-10.527,19.731-6.721,3.23-4.781,9.45,3.974,9.273a19.018,19.018,0,0,0,15.311-8.63,21.706,21.706,0,0,0,1.8-3.317,20,20,0,0,0-.04-15.894,21.429,21.429,0,0,0-11.024-11.108,18.915,18.915,0,0,0-7.82-1.667,22.506,22.506,0,0,0-8.246,1.839,22,22,0,0,0-2.737,1.451A20.3,20.3,0,0,0,123.9,148.385Z" transform="translate(-123.046 -133.989)" fill="url(#linear-gradient)"/>
+  <path id="Path_1992" data-name="Path 1992" d="M133.959,162.465a5.447,5.447,0,1,1-5.449-5.451A5.447,5.447,0,0,1,133.959,162.465Z" transform="translate(-123.041 -127.001)" fill="url(#linear-gradient-2)"/>
+</svg>

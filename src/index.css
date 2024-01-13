@@ -11,17 +11,155 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
 }
 :root {
   --primary-color: #024eaa;
-  --secondary-color: #e74c3c;
+  --secondary-color: #080707;
+
+  /* Dark Mode  */
+  --bg--dark: radial-gradient(
+    at 86% 99%,
+    rgb(31, 36, 87),
+    rgb(30, 51, 97),
+    black 100%
+  );
 }
 .text-primary-color {
   color: var(--primary-color);
 }
 .background-primary-color {
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
 }
-.border-primary-color {
-  border-color: var(--primary-color);
+.borderfix {
+  border-color: "linear-gradient(to right,#5a28fa 0,#457bff 100%)";
+  border: 4px solid;
+}
+
+/* .hero_box {
+  -webkit-box-shadow: 10px 10px 187px 67px rgba(15, 51, 194, 1);
+  -moz-box-shadow: 10px 10px 187px 67px rgba(15, 51, 194, 1);
+  box-shadow: 10px 10px 187px 67px rgba(15, 51, 194, 1);
+  background-color: rgb(7, 19, 65);
+} */
+.submenu_bg {
+  background: #a8c0ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #3f2b96,
+    #a8c0ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #3f2b96,
+    #a8c0ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.fillProgress {
+  animation: fillProgress 4s ease infinite;
+}
+
+@keyframes fillProgress {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+.bg_shape1 {
+  width: 1020px;
+  height: 500px;
+  border-radius: 9999px;
+}
+.bg_shape2 {
+  border-radius: 9999px;
+}
+.card {
+  transition: all 0.3s;
+  background-image: linear-gradient(163deg, #09090a 0%, #3f0dd3 100%);
+}
+.Button_card {
+  transition: all 0.3s;
+  background-image: linear-gradient(163deg, #24242b 0%, #2f09a1 100%);
+}
+.card2 {
+  transition: all 0.2s;
+}
+
+.card2:hover {
+  transform: scale(1);
+}
+.card_light:hover {
+  background-image: linear-gradient(163deg, #7a7af1 0%, #4414f5 100%);
+
+  box-shadow: 0px 0px 30px 1px rgba(88, 98, 241, 0.3);
+}
+
+.card:hover,
+.Button_card:hover,
+.activeContent,
+.selectedTestomonial {
+  background-image: linear-gradient(163deg, #7a7af1 0%, #4414f5 100%);
+
+  box-shadow: 0px 0px 30px 1px rgba(88, 98, 241, 0.3);
+}
+.Button_card {
+  background-image: linear-gradient(163deg, #4949a3 0%, #1812c9 100%);
+
+  /* box-shadow: 0px 0px 30px 1px rgba(88, 98, 241, 0.3); */
+}
+
+.transition-fade {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.transition-fade-out {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+.buttonFirst:hover {
+  box-shadow: 0px 0px 30px 5px rgba(145, 145, 224, 0.3);
+}
+@media (max-width: 1371px) and (min-width: 1025px) {
+  .number_show {
+    display: none; /* hide the div for screens between 1371px and 1024px */
+  }
+}
+.submenu {
+  position: absolute;
+  left: 0;
+  top: 150%;
+  width: 300px;
+  text-align: left;
+  background-color: #222222;
+  z-index: 9999;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.submenu:hover {
+  opacity: 1;
+  visibility: visible;
+}
+@keyframes rotateAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rotatespin {
+  animation: rotateAnimation 15s linear infinite;
 }
